@@ -27,8 +27,8 @@ HIGHFIVE=example.com:1001
 ./add-collab.py -u $BOTNAME -o $USERNAME $REPOS
 
 # homu
-./add-webhooks.py -u "http://$HOMU/github" -e '*' -t 'json' -o $USERNAME -s $HOMU_SECRET $REPOS
+./add-webhook.py -u "http://$HOMU/github" -e '*' -t 'json' -o $USERNAME -s $HOMU_SECRET $REPOS
 
 # highfive
-./add-webhooks.py -u "http://$HIGHFIVE/newpr.py" -e 'pull_request' -e 'issue_comment' -t 'form' -o $USERNAME $REPOS
+./add-webhook.py -u "http://$HIGHFIVE/newpr.py" -e 'pull_request' -e 'issue_comment' -t 'form' -o $USERNAME $REPOS
 ```
