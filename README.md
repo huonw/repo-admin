@@ -1,6 +1,6 @@
 Basic tools for mass-updates of certain github repo settings:
 
-- adding contributors
+- adding collaborators
 - adding webhooks
 - deleting webhooks based on simple filters
 
