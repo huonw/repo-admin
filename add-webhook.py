@@ -39,7 +39,7 @@ hook = {
     'config': {
         'url': args.url,
         'content_type': args.content_type,
-        'secret': args.secretg
+        'secret': args.secret
     }
 }
 
