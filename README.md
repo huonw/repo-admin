@@ -1,9 +1,14 @@
-Basic tools for mass-updates of certain github repo settings:
+Basic tools for mass-updates of certain GitHub repo settings:
 
 - adding collaborators
 - adding GitHub webhooks
 - deleting GitHub webhooks based on simple filters
 - naively adding a webhook to .travis.yml files
+
+**These tools require a `token` file to exist, containing a
+[GitHub personal access token](https://github.com/settings/applications).**
+Permissions: `repo`, `admin:repo_hook`. The token should be connected
+to an account with sufficient permissions to modify the repositories.
 
 They try to be as conservative and safe as possible, but true safety
 is not guaranteed: these scripts may mangle your data if misused. They
